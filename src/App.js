@@ -1,10 +1,13 @@
 import './App.css';
+import Navbar from './components/Navbar';
 import TopHeader from './components/TopHeader';
 
 function App() {
   return (
     <div className="App">
-      <TopHeader />
+      <TopHeader >
+        <Navbar />
+      </TopHeader>
     </div>
   );
 }
